@@ -9,9 +9,10 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-dark: #000808;
+  --color-light: #fdfcf7;
+  --color-primary: #50edf0;
+  --color-secondary: #eed131;
 }
 
 /* Smooth scroll behavior */
@@ -22,10 +23,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
+  color: var(--color-light);
+  background-color: var(--color-light);
 }
 
 a {
@@ -34,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
@@ -50,3 +57,58 @@ h6 {
 /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 0.15em;
+  }
+}
+
+nav {
+  background-color: var(--color-dark);
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a img {
+  height: 3em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 0.4em;
+}
+
+nav ul li a {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0.2em;
+  background-color: var(--color-primary);
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}

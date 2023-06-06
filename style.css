@@ -36,12 +36,12 @@ body {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -93,6 +93,7 @@ nav ul li {
 }
 
 nav ul li a {
+  color: var(--color-light);
   position: relative;
   transition: color 0.3s ease-in-out;
 }

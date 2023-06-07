@@ -140,6 +140,7 @@ nav.sticky {
 /*--------------------------------------------------------------
 # Inicio
 --------------------------------------------------------------*/
+
 #inicio {
   position: relative;
   width: 100%;
@@ -157,4 +158,71 @@ nav.sticky {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.outline-text {
+  position: absolute;
+  top: 10;
+  left: 10;
+  z-index: -1;
+  font-size: 20em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--color-light);
+}
+
+/* Animacion */
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#inicio .animated {
+  opacity: 0;
+  animation: slideInFromBottom 2s ease-in-out forwards;
+}
+
+#inicio .adn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@media (max-width: 600px) {
+  /* Estilos para pantallas de hasta 768px de ancho */
+  .outline-text {
+    font-size: 5em;
+  }
+
+  #inicio .banner h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Estilos para pantallas de hasta 480px de ancho */
+  .outline-text {
+    font-size: 8em;
+  }
+
+  #inicio .banner h1 {
+    font-size: 1.2em;
+  }
 }

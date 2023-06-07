@@ -205,7 +205,7 @@ nav.sticky {
   font-weight: bold;
   font-family: Arial, sans-serif;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-light);
 }
 

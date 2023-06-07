@@ -57,21 +57,6 @@ h6 {
 /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 0.9em;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul li {
-    margin: 0.15em;
-  }
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -137,6 +122,54 @@ nav.sticky {
   padding: 0.5em;
   background-color: var(--color-dark);
 }
+
+/* Hamburger Menu */
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  nav ul {
+    max-height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-dark);
+    transition: max-height 0.8s ease;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 1em;
+  }
+
+  nav ul li a {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked ~ ul {
+    max-height: 500px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Inicio
 --------------------------------------------------------------*/
@@ -206,7 +239,6 @@ nav.sticky {
 }
 
 @media (max-width: 600px) {
-  /* Estilos para pantallas de hasta 768px de ancho */
   .outline-text {
     font-size: 5em;
   }
@@ -217,7 +249,6 @@ nav.sticky {
 }
 
 @media (max-width: 600px) {
-  /* Estilos para pantallas de hasta 480px de ancho */
   .outline-text {
     font-size: 8em;
   }

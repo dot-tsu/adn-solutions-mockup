@@ -193,7 +193,7 @@ nav.sticky {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .outline-text {
@@ -226,7 +226,7 @@ nav.sticky {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 
@@ -251,10 +251,10 @@ nav.sticky {
 
 @media (max-width: 600px) {
   .outline-text {
-    font-size: 8em;
+    font-size: 10em;
   }
 
   #inicio .banner h1 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }

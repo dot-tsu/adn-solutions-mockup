@@ -267,7 +267,11 @@ nav.sticky {
   margin: 0.5em;
   list-style-type: none;
   border: 1px solid;
-  animation: slideInFromBottom 2s ease-in-out forwards;
+  transition: transform 0.3s ease;
+}
+
+.solucion:hover {
+  transform: scale(1.05);
 }
 
 .solucion h3 {

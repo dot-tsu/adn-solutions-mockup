@@ -248,18 +248,23 @@ nav.sticky {
     margin: 0.8em;
   }
 }
+
 /*--------------------------------------------------------------
 # Soluciones
 --------------------------------------------------------------*/
+
 #soluciones {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .solucion {
+  width: 30%;
+  flex-basis: 30%;
   padding: 2em;
-  margin: 2em;
+  margin: 0.5em;
   list-style-type: none;
   border: 1px solid;
   animation: slideInFromBottom 2s ease-in-out forwards;
@@ -280,4 +285,11 @@ nav.sticky {
 
 .solucion p {
   font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .solucion {
+    flex-basis: 100%;
+    margin: 1em 2em;
+  }
 }

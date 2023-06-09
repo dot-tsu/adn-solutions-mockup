@@ -9,10 +9,10 @@
 
 /* Colors */
 :root {
-  --color-dark: #000808;
-  --color-light: #fdfcf7;
-  --color-primary: #50edf0;
-  --color-secondary: #eed131;
+  --color-dark: rgba(0, 8, 8, 1);
+  --color-light: rgba(253, 252, 247, 1);
+  --color-primary: rgba(80, 237, 240, 1);
+  --color-secondary: rgba(238, 209, 49, 1);
 }
 
 /* Smooth scroll behavior */

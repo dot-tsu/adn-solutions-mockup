@@ -240,7 +240,7 @@ nav.sticky {
 
 @media (max-width: 728px) {
   .outline-text {
-    font-size: 15em;
+    font-size: 10em;
   }
 
   #inicio .banner h1 {

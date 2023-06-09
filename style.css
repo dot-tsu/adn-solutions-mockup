@@ -284,24 +284,7 @@ nav.sticky {
   list-style-type: none;
   border: 1px solid;
   transition: transform 0.3s ease;
-  position: relative;
-  overflow: hidden;
   background-color: var(--color-dark);
-}
-
-.solucion::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  z-index: 2;
-  transition: height 0.3s ease;
-}
-
-.solucion:hover::before {
-  height: 100%;
 }
 
 .solucion:hover {

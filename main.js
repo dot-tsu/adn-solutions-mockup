@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   navLinks.forEach((navLink) => {
     navLink.addEventListener("click", (event) => {
+      event.preventDefault();
       const target = document.querySelector(navLink.getAttribute("href"));
       target.scrollIntoView({
         behavior: "smooth",
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.addEventListener("wheel", (event) => {
+    event.preventDefault();
     const delta = Math.sign(event.deltaY);
     const scrollPosition = window.scrollY;
     window.scrollTo({

@@ -289,7 +289,7 @@ nav.sticky {
 }
 
 .solucion:hover {
-  transform: scale(1.05) rotate(2deg);
+  transform: scale(1.05);
 }
 
 .solucion h3 {

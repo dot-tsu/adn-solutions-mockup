@@ -474,15 +474,41 @@ nav.sticky {
   font-size: 1.5em;
 }
 
+#team div svg {
+  width: 5rem;
+  fill: var(--color-light);
+  margin: 0;
+}
+
+.caret-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: caretAnimation 1s infinite alternate;
+}
+.caret-down h2 {
+  font-size: 2rem;
+  color: var(--color-light);
+}
+
+@keyframes caretAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+
 @media (max-width: 1024px) {
   #team {
     text-align: center;
     flex-direction: column;
     margin-top: 5em;
   }
-  .empty-div {
-    display: none;
-  }
+
   #team div h1 {
     font-size: 3em;
     margin-bottom: 0.3em;

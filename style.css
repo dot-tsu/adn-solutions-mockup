@@ -527,7 +527,7 @@ nav.sticky {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 2rem; /* Adjust the margin as per your needs */
+  margin: 0 2rem;
 }
 
 #contactanos form h1 {
@@ -539,7 +539,7 @@ nav.sticky {
 #contactanos p {
   text-align: center;
   font-size: 1.5em;
-  margin: 0 2em; /* Adjust the margin as per your needs */
+  margin: 0 2em;
 }
 
 #contactanos span {
@@ -569,7 +569,7 @@ label {
 
 select {
   max-width: 50%;
-  width: 100%; /* Added width property for responsiveness */
+  width: 100%;
   background-color: var(--color-dark);
   font-family: var(--font-secondary);
   color: var(--color-light);

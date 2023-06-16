@@ -33,7 +33,7 @@ then open index.html or run a live server with VSCode
 
 ## About
 
-**Note:** All styling, logic, and code was done 100% by [me](https://www.linkedin.com/feed/) excluding the background patterns and the logo.
+**Note:** All styling, logic, and code was done 100% by [me](https://www.linkedin.com/in/luca-di-marco/) excluding the background patterns and the logo.
 
 ## Screenshots
 

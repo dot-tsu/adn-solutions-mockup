@@ -1,11 +1,11 @@
 # ADN Solutions Mockup
 
 ["ADN Solutions"](https://tsuramii.github.io/ADN-Solutions-Mockup/) is a responsive page project developed for a Web Develoment Agency startup.
-The goal of "ADN Solutions" was to create a modern and visually appealing page that would showcase the capabilities and expertise of the Web Development Agency. The project aimed to attract potential clients and provide them with information about the agency's services and past projects.
+The goal of the mockup was to create a modern and visually appealing page that showcases the capabilities and expertise of the Web Development Agency, the goal of "ADN Solutions" is to attract potential clients and provide them with information about the agency's services and past projects.
 
-To achieve this, I utilized the latest web technologies and design trends. The page was built with a responsive layout, ensuring that it would adapt and function seamlessly across different devices and screen sizes. This approach was crucial in reaching a wider audience and delivering a consistent user experience.
+To achieve this, I utilized the latest design trends. The page is built with a responsive layout, ensuring that it adapts and functions seamlessly across different devices and screen sizes. This approach is crucial in reaching a wider audience and delivering a consistent user experience.
 
-The website featured a sleek and intuitive user interface, with a clean design that focused on presenting key information concisely. The color scheme and typography were carefully chosen to convey a sense of professionalism and modernity. Strategic use of visuals, including high-quality images and videos, helped to capture the attention of visitors and engage them with the content.
+The website features a sleek and intuitive user interface, with a clean design that focuses on presenting key information concisely. The color scheme and typography are carefully chosen to convey a sense of professionalism and modernity. Strategic use of visuals, including high-quality images and videos, helps to capture the attention of visitors and engage them with the content.
 
 ## Technologies used
 

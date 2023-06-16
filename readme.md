@@ -53,7 +53,7 @@ then open index.html or run a live server with VSCode
 
 ***
 
-![fifth screenshot](assets/screenshots/screenshot5.jpg)
+![fifth screenshot](assets/screenshots/screenshot_5.jpg)
 
 ## License
 

@@ -626,3 +626,17 @@ button:hover {
     max-width: 100%;
   }
 }
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+footer a {
+  transition: all 0.2s;
+  margin: 0.2em;
+}

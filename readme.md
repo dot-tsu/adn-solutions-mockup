@@ -1,6 +1,6 @@
 # ADN Solutions Mockup
 
-["ADN Solutions"](https://tsuramii.github.io/ADN-Solutions-Mockup/) is a responsive page project developed for a Web Develoment Agency startup.
+["ADN Solutions"](https://dot-tsu.github.io/ADN-Solutions-Mockup/) is a responsive page project developed for a Web Develoment Agency startup.
 The goal of the mockup was to create a modern and visually appealing page that showcases the capabilities and expertise of the Web Development Agency, the goal of "ADN Solutions" is to attract potential clients and provide them with information about the agency's services and past projects.
 
 To achieve this, I utilized the latest design trends. The page is built with a responsive layout, ensuring that it adapts and functions seamlessly across different devices and screen sizes. This approach is crucial in reaching a wider audience and delivering a consistent user experience.
@@ -9,13 +9,13 @@ The website features a sleek and intuitive user interface, with a clean design t
 
 ## Technologies used
 
-* HTML
-* CSS
-* Javascript
+- HTML
+- CSS
+- Javascript
 
 ### Installation
 
-Go to the [live preview](https://tsuramii.github.io/ADN-Solutions-Mockup/)
+Go to the [live preview](https://dot-tsu.github.io/ADN-Solutions-Mockup/)
 
 or
 
@@ -39,19 +39,19 @@ then open index.html or run a live server with VSCode
 
 ![first screenshot](assets/screenshots/screenshot_1.jpg)
 
-***
+---
 
 ![second screenshot](assets/screenshots/screenshot_2.jpg)
 
-***
+---
 
 ![third screenshot](assets/screenshots/screenshot_3.jpg)
 
-***
+---
 
 ![fourth screenshot](assets/screenshots/screenshot_4.jpg)
 
-***
+---
 
 ![fifth screenshot](assets/screenshots/screenshot_5.jpg)
 

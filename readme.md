@@ -1,42 +1,29 @@
 # ADN Solutions Mockup
+⚠️ **Note**: This project won’t be updated further. It’s archived for reference.
 
-["ADN Solutions"](https://dot-tsu.github.io/ADN-Solutions-Mockup/) is a responsive page project developed for a Web Develoment Agency startup.
-The goal of the mockup was to create a modern and visually appealing page that showcases the capabilities and expertise of the Web Development Agency, the goal of "ADN Solutions" is to attract potential clients and provide them with information about the agency's services and past projects.
+["ADN Solutions"](https://tsu.is-a.dev/adn-solutions-mockup/) is a mockup I created for a Web Development Agency startup. The goal was to build a modern, responsive page that showcases the agency's services and past projects, making it attractive to potential clients.
 
-To achieve this, I utilized the latest design trends. The page is built with a responsive layout, ensuring that it adapts and functions seamlessly across different devices and screen sizes. This approach is crucial in reaching a wider audience and delivering a consistent user experience.
-
-The website features a sleek and intuitive user interface, with a clean design that focuses on presenting key information concisely. The color scheme and typography are carefully chosen to convey a sense of professionalism and modernity. Strategic use of visuals, including high-quality images and videos, helps to capture the attention of visitors and engage them with the content.
+This project uses the latest design trends with a clean and intuitive layout. It's fully responsive and works great on all devices!
 
 ## Technologies used
-
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
 ### Installation
 
-Go to the [live preview](https://dot-tsu.github.io/ADN-Solutions-Mockup/)
-
-or
-
-Download the zip file of the project, unzip it and open index.html
-
-then open index.html or run a live server with VSCode
+- Download and unzip the project, then open `index.html`, or
+- Clone and run it with a live server in VSCode.
 
 ## Features
-
-**Responsive design:** The webpage is designed to adapt and function seamlessly across different devices and screen sizes, providing a consistent user experience.
-
-**Clear navigation:** The webpage features an intuitive and easy-to-use navigation menu, allowing users to quickly find the desired sections or information.
-
-**Engaging visuals:** High-quality designs are strategically placed throughout the page to capture visitors' attention and create visual interest.
+- **Responsive design**: Looks great on any device.
+- **Easy navigation**: Simple and intuitive to use.
+- **Engaging visuals**: Designed to capture attention.
 
 ## About
-
-**Note:** All styling, logic, and code was done 100% by [me](https://www.linkedin.com/in/luca-di-marco/) excluding the background patterns and the logo.
+Everything (styling, logic, code) was done 100% by me, except the background patterns and logo.
 
 ## Screenshots
-
 ![first screenshot](assets/screenshots/screenshot_1.jpg)
 
 ---
@@ -57,4 +44,4 @@ then open index.html or run a live server with VSCode
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC License - see the LICENSE.md for more details.
+This project is licensed under the GNU GENERAL PUBLIC License. See LICENSE.md for details.
